@@ -1,8 +1,8 @@
 # OLS MCP Server
 
-Large Language Models are notoriously bad at working with ongologies, often hallucinating terms or their identifiers. This server provides a reliable way to access and query ontologies, ensuring accurate and up-to-date information.
+Large Language Models are notoriously bad at working with ontologies, often hallucinating terms or their identifiers. This server provides a reliable way to access and query ontologies, ensuring accurate and up-to-date information.
 
-A Model Context Protocol (MCP) server providing access to the Ontology Lookup Service (OLS) API. This server enables AI assistants to search for and retrieve ontological terms, concepts, and hierarchies from various biological and medical ontologies.
+This repository contains a Model Context Protocol (MCP) server providing access to the [Ontology Lookup Service (OLS)](https://www.ebi.ac.uk/ols4/) API. This server enables AI assistants to search for and retrieve ontological terms, concepts, and hierarchies from various biological and medical ontologies.
 
 This server is designed to work seamlessly with AI assistants like Claude Desktop, allowing users to query ontologies using natural language. It supports a wide range of ontologies, including Gene Ontology (GO), Human Phenotype Ontology (HP), and many others. 
 
