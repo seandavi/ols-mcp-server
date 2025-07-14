@@ -1,0 +1,18 @@
+[project]
+name = "ols-mcp-server"
+version = "0.1.0"
+description = "MCP server for Ontology Lookup Service (OLS) API"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastmcp>=2.10.5",
+    "httpx>=0.24.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project.scripts]
+ols-mcp-server = "ols_mcp_server.server:main"
+
