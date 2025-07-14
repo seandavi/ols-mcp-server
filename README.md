@@ -6,6 +6,8 @@ A Model Context Protocol (MCP) server providing access to the Ontology Lookup Se
 
 This server is designed to work seamlessly with AI assistants like Claude Desktop, allowing users to query ontologies using natural language. It supports a wide range of ontologies, including Gene Ontology (GO), Human Phenotype Ontology (HP), and many others. 
 
+![The mcp server in action in Claude Desktop.](images/osteo_in_claude.png)
+
 ## Features
 
 The OLS MCP Server provides the following tools:
