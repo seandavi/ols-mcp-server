@@ -55,7 +55,7 @@ powershell -c "irm https://astral.sh/uv/install.ps1 | iex"
 
 ```bash
 # Clone the repository
-git clone <repository-url>
+git clone https://github.com/seandavi/ols-mcp-server.git
 cd ols-mcp-server
 
 # Install dependencies
@@ -106,28 +106,6 @@ If you installed the server as a uv tool, you can use this simpler configuration
 }
 ```
 
-### Development Configuration
-
-For development with debug logging:
-
-```json
-{
-  "mcpServers": {
-    "ols-mcp-server": {
-      "command": "uv",
-      "args": [
-        "run",
-        "python",
-        "-m",
-        "ols_mcp_server.server",
-        "--debug"
-      ],
-      "env": {},
-      "cwd": "/path/to/ols-mcp-server"
-    }
-  }
-}
-```
 
 ## Usage Examples
 
