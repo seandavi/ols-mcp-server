@@ -10,6 +10,10 @@ This server is designed to work seamlessly with AI assistants like Claude Deskto
 
 ![The mcp server in action in Claude Desktop.](images/osteo_in_claude.png)
 
+Without (top part of image below) and with mcp server engaged (bottom of figure below):
+
+![With and without mcp server in claude desktop.](images/with_wo_mcp_in_claude.png)
+
 ## Features
 
 The OLS MCP Server provides the following tools:
